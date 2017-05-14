@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign UP Page</title>
+    </head>
+    <style>
+        body,html {
+            background-image: url(http://goldwallpapers.com/uploads/posts/free-wallpaper-for-website-backgrounds/free_wallpaper_for_website_backgrounds_013.jpg);
+            background-size: 100%;
+        }
+        h1 {
+            text-align: center;
+            color: floralwhite;
+            font-size: 50px;
+            font-family: monospace
+        }
+        span {
+            color: red;
+        }
+        form {
+            margin-left: 25%;
+            margin-top: 7%
+        }
+        label {
+            font-size: 25px;
+            color: greenyellow;
+            line-height: 50px;
+            font-family: cursive;
+        }
+        input[type=text] {
+            width: 60%;
+            padding: 11px 20px;
+            margin: 8px;
+            border: 1px solid red;
+            border-radius: 100%;
+            background-color: ghostwhite;
+            transition-duration: 0.7s;
+            text-align: center;
+            font-size: 15px;
+            color: black;
+            font-family: sans-serif;
+            cursor: auto;
+        }
+        input[type=email] {
+            width: 50%;
+            padding: 11px 20px;
+            margin: 8px;
+            border: 1px solid red;
+            border-radius: 50%;
+            background-color: ghostwhite;
+            transition-duration: 0.7s;
+            text-align: center;
+            font-size: 15px;
+            color: black;
+            font-family: sans-serif;
+            cursor: auto;
+        }
+        input[type=password] {
+            width: 30%;
+            padding: 11px 20px;
+            margin: 8px;
+            border: 1px solid red;
+            border-radius: 50%;
+            background-color: ghostwhite;
+            transition-duration: 0.7s;
+            text-align: center;
+            font-size: 15px;
+            color: black;
+            font-family: sans-serif;
+            cursor: auto;
+        }
+        input[type=number] {
+            width: 30%;
+            padding: 11px 20px;
+            margin: 8px;
+            border: 1px solid red;
+            border-radius: 50%;
+            background-color: ghostwhite;
+            transition-duration: 0.7s;
+            text-align: center;
+            font-size: 15px;
+            color: black;
+            font-family: sans-serif;
+            cursor: auto;
+        }
+        input[type=date] {
+            width: 25%;
+            padding: 11px 20px;
+            margin: 8px;
+            border: 1px solid red;
+            border-radius: 50%;
+            background-color: ghostwhite;
+            transition-duration: 0.7s;
+            text-align: center;
+            font-size: 15px;
+            color: black;
+            font-family: sans-serif;
+            text-transform: uppercase;
+        }
+        input:checked {
+            width: 40px;
+            height: 20px;
+        }
+        input[type=radio] {
+            
+        }
+        input[type=Button] {
+            width: 15%;
+            margin-left: 63%;
+            padding: 11px 20px;
+            border: 2px solid darkred;
+            border-radius: 33%;
+            font-size: 15px;
+            background-color: lightgray;
+            transition-duration: 0.7s;
+            cursor: pointer;
+            color: darkblue;
+            font-family: fantasy; 
+        }
+        select {
+            width: 12%;
+            margin-left: 7%;
+            padding: 11px 20px;
+            border: 2px solid darkred;
+            border-radius: 50%;
+            font-size: 20px;
+            background-color: ghostwhite;
+            transition-duration: 0.7s;
+            cursor: pointer;
+            text-align: center;
+            font-family: sans-serif;
+            
+        }
+        input[type=Button]:hover {
+            background-color: darkgray;
+        }
+    </style>
+    <body>
+        <h1>Sign UP <span>NOW</span></h1>
+        <form>
+            <label for="fn">First Name</label>
+            <input type="text" id="fn" name="firstname" placeholder="Enter your first name....."><br>
+            <label for="ln">Last Name</label>
+            <input type="text" id="ln" name="lastname" placeholder="Enter your last name......"><br>
+            <label for="un">Username</label>
+            <input type="text" id="un" name="username" placeholder="Enter your username......"><br>
+            <label for="eid">Email ID</label>
+            <input type="email" id="eid" name="emailid" placeholder="Enter your Email ID......"><br>
+            <label for="pw">Password</label>
+            <input type="password" id="pw" name="password" placeholder="Enter password......"><br>
+            <label for="cpw">Confirm Password</label>
+            <input type="password" id="cpw" name="confirmpw" placeholder="Enter password again......"><br>
+            <label for="cntct">Contact</label>
+            <input type="number" id="cntct" name="contact" placeholder="Enter your mobile number......"><br>
+            <label for="adrss">Address</label>
+            <input type="text" id="adrss" name="address" placeholder="Your address......"><br>
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" name="dateofbirth"><br>
+            <label for="gender">Gender</label>
+            <select name="gender" placeholder="Gender">
+  				<option value="male">Male</option>
+  				<option value="female">Female</option>
+			</select><br>
+            <input type="Button" id="signup" name="signup" value="Sign UP">
+        </form>    
+    </body>
+</html>
